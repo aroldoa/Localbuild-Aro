@@ -1,0 +1,554 @@
+html,body{
+
+height:100%;
+margin:0px;
+padding:0px;
+z-index: 0;  
+}
+
+#slide{
+
+height: 0;
+position: relative;
+top:0;
+z-index:0;
+background-color:#292A31;
+    
+}
+
+
+#leftnav{
+
+float:left;
+height:100vh;
+width:0;
+background-color:white;
+position: fixed;
+top:0;
+z-index: 9999;
+
+}
+
+#wrapper{
+    
+    opacity: 0;
+}
+
+#showcase{
+position: absolute;
+top:50px;
+background-image: url('../img/ux-inro.jpg');
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width:100%;
+opacity: 0;
+overflow: hidden;
+}
+
+.intro-heading{
+position: absolute;
+bottom:40%;
+left:200px;
+}
+
+.intro-heading h1{
+    
+font-size:5.2em;
+color:#fff;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+margin-bottom: 40px;
+position: relative;
+top:50px;
+opacity: 0;
+    
+}
+
+.intro-heading h1 span, #about-aro h3 span{
+    color:#E54948;
+    
+}
+
+a{
+    color:#E54948 !important;
+}
+
+.intro-heading h2{
+    
+    color:#fff;
+    font-size:2em;
+    font-family: 'Playfair Display', serif;
+    opacity: 0;
+}
+
+.growline{
+    
+    position: absolute;
+    height:1px;
+    width:1px;
+    bottom:0;
+    background-color:#E54948;
+    left:54%;
+}
+
+#about-aro{
+    padding:400px 0px;
+    background-color:#292A31;
+    background-image: url('../img/aro-large.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+#about-aro h3{
+    
+    font-size:3.9em;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+    opacity: 0;
+    position: relative;
+    top:100px;
+}
+
+#about-aro p{
+    
+    font-size:1.2em;
+    line-height: 2.3em;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Oxygen', sans-serif;
+    opacity: 0;
+    position: relative;
+    left:60px;
+}
+
+#featurd-works{
+    
+    background-color:#f7f7f7;
+    padding:300px 0px;
+    position: relative;
+}
+
+.tri1{
+
+    position: absolute;
+    top:0px;
+    left: 44%;
+    opacity: 0;
+}
+
+.tri2{
+
+    position: absolute;
+    top:0px;
+    left: 47%;
+    opacity: 0;
+}
+
+.tri3{
+
+    position: absolute;
+    top:0px;
+    left: 50%;
+    opacity: 0;
+}
+
+#featurd-works h4{
+    
+    font-family: 'Playfair Display', serif;
+    font-size:3.7em;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+#featurd-works p{
+    
+    color:#606060;
+    font-family: 'Playfair Display', serif;
+    font-size:1.5em;
+    line-height: 1.8em;
+    margin-bottom: 60px;
+}
+
+.space{
+    
+    padding:230px 0px;
+    display:block;
+
+}
+
+.xs-space{
+    
+    padding:180px 0px;
+    display:block;
+
+}
+
+.xss-space{
+    
+    padding:80px 0px;
+    display:block;
+
+}
+
+.offscrn-right{
+    
+    position: absolute;
+    right:-260px;
+    top:0px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.offscrn-left{
+    
+    position: absolute;
+    left:-280px;
+    top:0px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.case{
+    
+    padding:18px 60px;
+    background:none;
+    border:1px solid #E54948;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .8s;
+    font-size:14px;
+    letter-spacing: 1px;
+    opacity: 0;
+}
+
+.case:hover{
+    
+    background-color: #E54948; 
+    color:#fff;
+    cursor:pointer;
+}
+.case:hover a{
+    
+    color:#fff !important;
+    text-decoration: none;
+}
+
+.project{
+    
+}
+
+.project h4, .project2 h4, .project3 h4{
+    
+    opacity: 0;
+    position: relative;
+    top: 50px;
+}
+
+.project p, .project2 p, .project3 p{
+    
+    opacity: 0;
+    position: relative;
+}
+
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+#footer{
+    
+    
+    padding:250px 0px;
+    height: 850px;
+    background-color:#f5f5f5;
+    
+    
+    
+}
+
+#footer h4{
+    
+    font-family: 'Playfair Display', serif;
+    font-size:5.2em;
+    color:#051e27;
+    line-height: 1em;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+}
+
+#footer h4 span{
+    
+        color:#e45151;
+}
+
+
+#footer a.email{
+    
+     color:#e45151;
+     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size:2em;
+    
+}
+
+ul.social{
+    
+    display:inline-block;
+    margin: 50px 0px 0px 0px;
+    padding:0px;
+}
+
+ul.social li{
+    
+    display: inline-block;
+    margin:10px 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size:1.4em;
+    color:#959595;
+}
+
+ul.social li a{
+    
+    color:#959595 !important;
+    transition: .5s;
+}
+
+ul.social li a:hover{
+    
+       color:#e45151 !important;
+       text-decoration: none;
+}
+
+
+/*-----------------------------------------------------
+Projects
+-------------------------------------------------------*/
+
+#project-intro{
+    padding:400px 0px;
+    background-color:#292A31;
+}
+
+.feat-img{
+    
+    position: absolute;
+    right:0;
+    top:0;
+    width:1000px;
+    
+}
+
+#sub-showcase{
+position: absolute;
+top:50px;
+height: 700px !important;
+width:100%;
+opacity: 0;
+z-index: 0;
+background-color:#fff;  
+}
+
+
+.showcase-item{
+    
+   position: relative; 
+   width: 100%; /* for IE 6 */
+
+}
+
+
+
+.showcase-item h1{
+
+    font-family: 'Playfair Display', serif;
+    font-size:5em;
+    color:#fff;
+    position: absolute;
+    bottom:26%;
+    left:10%;
+    width:100%;
+    font-weight: 600;
+    letter-spacing: 0px;
+    opacity:0;
+    
+}
+
+.showcase-item span{
+    
+    
+    font-family: 'Playfair Display', serif;
+    font-size:2em;
+    color:#fff;
+    position: absolute;
+    bottom:38%;
+    left:12%;
+    width:100%;
+    font-weight: 300;
+    letter-spacing: 0px;
+    opacity: 0;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+#case-study{
+    
+    padding:240px 0px;
+    
+}
+
+#case-study h2{
+    
+    font-family: 'Playfair Display', serif;
+    font-size:3.8em;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    position: relative;
+    left:30px;
+    opacity: 0;
+    
+}
+
+#case-study p{
+    
+    font-family: 'Playfair Display', serif;
+    font-size:1.3em;
+    letter-spacing: 0px;
+    font-weight: 300;
+    line-height: 2em;
+    color:#929292;
+    position: relative;
+    opacity: 0;
+    top:30px;
+    
+}
+
+
+
+#case-study h3{
+    
+    font-family: 'Playfair Display', serif;
+    font-size:3.4em;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+.block{
+    
+    display: block;
+}
+
+#portfolio{
+    
+    position: absolute;
+    top:30px;
+    opacity: 0;
+    width:100%;
+    
+}
+
+.port-block{
+    
+    height: 600px;
+    overflow: hidden;
+    width:100%;
+    position: relative;
+}
+
+.port-block h1{
+    
+    
+    font-family: 'Playfair Display', serif;
+    font-size:4.8em;
+    color:#fff;
+    position: absolute;
+    bottom:26%;
+    left:10%;
+    width:100%;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.port-block span{
+    
+        font-family: 'Playfair Display', serif;
+    font-size:2em;
+    color:#fff;
+    position: absolute;
+    bottom:38%;
+    left:10%;
+    width:100%;
+    font-weight: 300;
+    letter-spacing: 0px;
+    display: block;
+    margin-bottom: 28px;
+}
+
+
+
+/*------------------------------------------------------
+Project Skin MD
+--------------------------------------------------------*/
+
+.skinmd{
+
+    background-color:#4ec8b8;
+
+}
+
+.slideup{
+    
+    opacity: 0;
+    position: relative;
+    top:80px;
+}
+
+
+.pattern{
+    
+    background-image: url('../img/skinmd/skinback.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    margin-top: 220px;
+}
+
+
+.goebel{
+    
+    background-color: #374049;
+}
+
+
+.best{
+    
+    background-color: #3A54A5;
+}
+
+.nswm{
+    
+    background-color: #D0011B;
+}
+
+.filetime{
+    
+    background-color: rebeccapurple;
+}
+
+.maria{
+    
+    background-color: darkorange;
+}
